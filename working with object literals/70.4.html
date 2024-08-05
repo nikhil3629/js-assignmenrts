@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+            var marks = {
+                "maths" : 34,
+                "english" : 56,
+                "science" : 32,
+                "hindi" : 75,
+                "social science" : 65
+            };
+            var sum = 0;
+           for(var k in marks){
+                sum = sum +k;
+            }
+            var percentage = (sum/500)*100;
+            console.log(percentage)
+        </script>
+    </body>
+</html>
