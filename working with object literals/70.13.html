@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+            var marks = {
+                "maths" : 34,
+                "english" : 56,
+                "science" : 32,
+                "hindi" : 75,
+                "social science" : 65
+            };
+            var count1;
+            var count2;
+            for(var k in marks){
+                if(marks[k]>=35){
+                    count2++;
+                }
+                count1++;
+            }
+                 if(count1 == count2){
+                 console.log("Student has passed in all subjects")
+                 }else{
+                    console.log("Student has not passed in all subjects")
+                 }
+           
+        </script>
+    </body>
+</html>
