@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1 id="h"></h1>
+    </body>
+    <script>
+        setInterval(function(){
+            var d = new Date();
+            var clocktime=document.getElementById("h");
+            clocktime.innerHTML = d.getHours()+":"+d.getMinutes()+":"+d.getSeconds()+":"+d.getMilliseconds();
+        },100);
+    </script>
+</html>

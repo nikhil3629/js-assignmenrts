@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+      <h1 id="h"></h1>
+    </body>
+    <script>
+        setInterval(function(){
+            var d = new Date();
+            var x = document.getElementById("h")
+            x.innerHTML = d.getHours()+":"+d.getMinutes()+":"+d.getSeconds()+":"+d.getMilliseconds();
+        },100);
+       
+    </script>
+</html>
